@@ -86,7 +86,6 @@ NextBtn.addEventListener('click', function () {
   if (index < total) {
     loadQuestion();
   }
-  console.log(index);
 });
 
 PrevBtn.addEventListener('click', function () {
@@ -94,6 +93,5 @@ PrevBtn.addEventListener('click', function () {
   if (index >= 0) {
     loadQuestion();
   }
-  console.log(index);
 });
 loadQuestion();
